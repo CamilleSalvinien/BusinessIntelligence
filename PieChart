@@ -1,8 +1,4 @@
 #!/usr/bin/env python
-# coding: utf-8
-
-# In[15]:
-
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -25,4 +21,3 @@ plt.pie(df['TotalDemerits'],
  autopct='%1.1f%%',)
 plt.axis('equal')
 plt.show()
-
