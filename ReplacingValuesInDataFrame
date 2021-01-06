@@ -1,8 +1,4 @@
 #!/usr/bin/env python
-# coding: utf-8
-
-# In[6]:
-
 
 import pandas as pd
 names = ['Bob','Jessica','Mary','John','Mel']
@@ -13,4 +9,3 @@ df = pd.DataFrame(data = GradeList,
 
 df.loc[(df['Grades'] <= 0,'Grades')] = 0
 df
-
