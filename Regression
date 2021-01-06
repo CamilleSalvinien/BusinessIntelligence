@@ -10,6 +10,6 @@ import statsmodels.formula.api as sm
 
 result = sm.ols(\n",
  	   formula='grade ~ age + exercise + hours',
-     data=df).fit()
+     data=df).fit())
      
 result.summary()
