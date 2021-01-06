@@ -1,8 +1,4 @@
 #!/usr/bin/env python
-# coding: utf-8
-
-# In[15]:
-
 
 import pandas as pd
 Location = "C:/Users/camil/OneDrive/Bureau/gradedata.csv"
@@ -17,4 +13,3 @@ group_names = ["Pass","Fail"]
 df['passOrFail'] = pd.cut(df['grade'],bins,labels=group_names)
 
 df.head()
-
