@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[100]:
-
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -45,4 +39,3 @@ df.loc[df['Cars Sold'] > 3]['Years Experience'].mean()
 #Average cars sold per month sorted by whether they have had sales training
 df.loc[df['SalesTraining'] == 'N']['Cars Sold'].mean()
 df.loc[df['SalesTraining'] == 'Y']['Cars Sold'].mean()
-
